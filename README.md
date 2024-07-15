@@ -26,27 +26,34 @@ Convert the stitched image into a 2D grid map.
 Represent objects in the room as lines or dots on the grid based on their dimensions.
 ## Navigation and Obstacle Detection:
 
--**Distance Calculation:** Calculate distances between various points on the grid.
--**Path Planning:** Use algorithms like Dijkstra’s or A* to plan optimal paths and avoid obstacles.
+- **Distance Calculation:** Calculate distances between various points on the grid.
+- **Path Planning:** Use algorithms like Dijkstra’s or A* to plan optimal paths and avoid obstacles.
 ## Performance Evaluation:
 
 Measure the accuracy of the grid map and computational latency to ensure real-time performance.
 
 ## Tech Stack
 
-- **Artificial Intelligence**: Machine learning algorithms for personalized recommendations and cooking automation.
-- **Natural Language Processing (NLP)**: For voice command recognition and interaction.
-- **IoT (Internet of Things)**: Integration with smart kitchen appliances.
-- **Python**: Core programming language for AI and backend development.
-- **React**: Frontend development for user interface.
-- **Node.js**: Backend development and server management.
-- **MongoDB**: Database management for storing user preferences and inventory data.
+## Hardware:
+
+- **Cameras:** High-resolution cameras capable of capturing clear images from different angles.
+- **Computing Device:** A powerful computer or server with sufficient processing power and memory.
+
+## Software:
+
+- **Operating System:** Ubuntu or any other Linux distribution for robust performance and compatibility with simulation and vision libraries.
+- **Gazebo:** For simulating the environment and camera setup.
+- **ROS (Robot Operating System):** For integrating different components and managing communication between them.
+- **OpenCV:** For image processing tasks such as resizing, normalization, feature detection, and stitching.
+- **Python/C++:** For writing scripts and algorithms for image processing, stitching, and grid mapping.
+- **Pandas/Numpy:** For data manipulation and handling large datasets efficiently.
+- **SciPy:** For scientific computations, including optimization algorithms used in stitching and mapping.
 
 ## Team Members
 
-- **Nadupalli Roja Ashritha**: Team Lead and 
-- **Vemula Ranjith**: 
-- **Syed Omer Farooq**: 
+- **Nadupalli Roja Ashritha**: Team Lead and web developer
+- **Vemula Ranjith**: web developer
+- **Syed Omer Farooq**: backend developer
 
 ## Contact Information
 
